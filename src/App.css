@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@700&family=Palanquin:wght@500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
+}
+
+:root {
+  --primary-color: #ec549b;
+  --secondary-color: #e22d82;
+  --ternary-color: #fa86b8;
+  --white-color: #ffffff;
+  --light-color: #f8f9fa;
+}
+
+.auth {
+  background: url('../public/images/authenticationBg.png') center center no-repeat fixed;
+  background-size: cover;
+}
+
+.logo-text {
+  font-family: 'Aref Ruqaa Ink', serif;
+  color: var(--primary-color);
+  font-size: 23px;
+}
+
+.logo-text:hover,
+.button:hover,
+.text-pink {
+  color: var(--secondary-color);
+}
+
+.home-banner {
+  background: url('https://www.optimalvirtualemployee.com/wp-content/themes/optimalvirtual/images/about-banner.jpg') center center no-repeat;
+  position: relative;
+  min-height: 800px;
+  background-size: cover;
+  background-position: 0 -103px;
+  opacity: 0.9;
+
+  @media screen and (max-width: 578px) {
+    min-height: 500px;
+  }
+}
+
+.home-banner h1 {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  right: 60%;
+  transform: translateY(-50%);
+  line-height: 1.5;
+  margin: 0;
+  color: var(--white-color);
+  font-family: 'Palanquin', sans-serif;
+
+  @media screen and (max-width: 578px) {
+    font-size: 25px;
+    top: 40%;
+    left: 25%;
+    right: 25%;
+  }
+}
+
+
+/* Common For all */
+table td,
+table th {
+  white-space: nowrap !important;
+}
+
+.vh-80 {
+  height: 80vh !important;
+}
+
+input {
+  box-shadow: none !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.button {
+  color: var(--primary-color);
+  background-color: var(--white-color);
+}
+
+.btn-pink {
+  color: var(--white-color) !important;
+  background-color: var(--primary-color) !important;
+}
+
+.btn-pink:hover {
+  color: var(--white-color) !important;
+  background-color: var(--ternary-color) !important;
+}

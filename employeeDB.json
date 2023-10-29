@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "first_name": "Manai",
+      "last_name": "q",
+      "email": "manikandan@gmail.com",
+      "phone_number": "9047578635",
+      "gender": "Male",
+      "date_of_birth": "2023-10-03",
+      "id": 1
+    }
+  ]
+}
